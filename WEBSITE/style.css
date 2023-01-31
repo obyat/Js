@@ -1,0 +1,11 @@
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+#flexDiv {
+    justify-content: center;
+    padding: 3%;
+    align-items: center;
+}
