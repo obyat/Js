@@ -141,3 +141,36 @@ age %= 6;
 //     default:
 //         console.log("Grade not acceptable");
 // }
+
+//------------------------------- do while  ---------------------------------------------------------
+
+// let userName;
+// //occurs at least onces
+// do {
+//     userName = window.prompt("enter your username:");
+// } while (userName == "")
+
+// console.log("Hello", userName);
+
+//------------------------------- for loop break / creating dom elements in js without html  ---------------
+
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i > 10) break;
+//     let p = document.createElement('p');
+//     document.body.appendChild(p);
+//     p.innerText = i;
+// }
+
+//***** let = variable limited to block scope {} */
+//***** var = global variable UNLESS limited with function scope function(){} */
+//***** var = if declared globally, can change can browser props */
+
+//-------------------------------------------- Delimiters  ----------------------------------------------
+
+//easier for accessing data within strings
+// let userName = 'fox';
+// console.log("Hello", userName);
+// console.log(`Hello ${userName}`);
+
+//-------------------------------------------- Delimiters   ----------------------------------------------
